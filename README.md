@@ -1,27 +1,15 @@
-Welcome to the Glitch BETA
-=========================
+Discord Pinarchiver
+===================
+Automatically saves pinned messages to a channel in order to bypass the 50 pin limit imposed by discord. On top of this, the bot provides various commands for easier pin management as described below.
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+Setup
+-----
+```
+1. To set up this bot use the `@pinarchiver init` command in a channel where you want to create the pin archive. NOTE:  You need `Manage Messages` permission to set up this bit for security reasons
+2. Then use `initpinarchive CHANNEL_1 CHANNEL_2 ... CHANNEL_N` to archive the pins in the given channels
+3. This will now make all new pins be saved to the indicated channel, when a channel runs out of pin space use `purgepins CHANNEL` to reset it. Alternatively, multiple channels can have pins reset in a similar fashion as `initpinarchive`.
+```
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
+Help with the bot
+-----------------
+To get help with this bot or give feedback you can go to the help server and contact LiquidZulu#0001 or you can go [here](https://garfield-comics.glitch.me/feedback) and indicate you are there for PinArchiver, a separate website for this bot will come soon.
